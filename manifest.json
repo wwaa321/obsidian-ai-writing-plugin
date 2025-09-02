@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-ai-writing-plugin",
+  "name": "MOAONO AI 写作助手",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "MOAONO AI 写作助手，基于 AI 技术，为用户提供个性化的写作服务，帮助用户快速、高效地创作内容。",
+  "author": "MOAONO数字生活专家",
+  "authorUrl": "http://www.moaono.com",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}
