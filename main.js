@@ -1384,7 +1384,7 @@ var AIWritingSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("\u667A\u80FD\u7EED\u5199\u5FEB\u6377\u952E").setDesc("\u89E6\u53D1\u667A\u80FD\u7EED\u5199\u529F\u80FD\u7684\u5FEB\u6377\u952E").addText((text) => {
+    new import_obsidian.Setting(containerEl).setName("\u667A\u80FD\u7EED\u5199\u5FEB\u6377\u952E").setDesc("\u89E6\u53D1\u667A\u80FD\u7EED\u5199\u529F\u80FD\u7684\u5FEB\u6377\u952E\u3002\u5982\u679C\u65E0\u6548\u8BF7\u5728Obsidian\u7684\u5FEB\u6377\u952E\u8BBE\u7F6E\u4E2D\u91CD\u65B0\u5B9A\u4E49\u6216\u4FEE\u6539").addText((text) => {
       text.setPlaceholder("Ctrl+Space").setValue(this.plugin.settings.writing.shortcutKeys.smartContinue).onChange(async (value) => {
         this.plugin.settings.writing.shortcutKeys.smartContinue = value;
         await this.plugin.saveSettings();
